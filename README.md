@@ -26,6 +26,19 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 - Robusta underperforms across the board with the lowest revenue contribution (19.2%) with dark roast having the lowest AOV of all products ($29.31).
 - Light roasts (especially Excelsa Light at $59.49 and Arabica Light at $59.03) have the highest AOVs.
 
+
 ![Product performance](https://github.com/user-attachments/assets/d75c9c1e-52bc-4c4e-9799-e8fabaa2a17a)
+
+## Country Sales Trends and Growth Rates
+- The United States contributed almost $30,000 in sales (78%) with an 18.38% increase in sales in 2021.
+- Ireland had a sharp increase in order count (60%) in 2021 but a decrease in AOV (-24%) which resulted in a 21% increase in sales. 
+- The UK declined across all metrics with a 40% decrease in sales in 2021. 
+- Each country has different seasonality patterns. The US is strongest during Q4 while Ireland is strongest March - June.
+- The UK’s sales surge in March and are flat for the rest of the year. 
+
+![Country Stats](https://github.com/user-attachments/assets/cd077b66-11af-43a2-8504-e8967f899a43)
+
+![Country sales trend graphs together](https://github.com/user-attachments/assets/1f5bb995-cc00-4eb4-95d4-ab8c2320e4b4)
+
 
 
