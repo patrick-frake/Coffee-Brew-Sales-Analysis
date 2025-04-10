@@ -23,7 +23,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 
 ## Sales Trends and Growth Rates
 - Company averages $12,690 in annual sales and 278 orders per year.
-- Sales jumped over 13% in 2021 due to the 18% increase in orders. 
+- Sales jumped over 13% in 2021 with an 18% increase in orders. 
 - AOV has been on a gradual decline since 2019 with fluctuations month to month (4% decrease in 2021).
 - Sales are consistently high Q4 each year (especially Oct - Nov) with 2019 and 2020 showing drops in AOV and order count in summer months (Jul - Aug)
 
@@ -41,7 +41,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 ![Product performance](https://github.com/user-attachments/assets/d75c9c1e-52bc-4c4e-9799-e8fabaa2a17a)
 
 ## Country Sales Trends and Growth Rates
-- The United States contributed almost $30,000 in sales (78%) with an 18.38% increase in sales in 2021.
+- The United States contributed almost $30,000 in sales (78%) with an 18% increase in sales in 2021.
 - Ireland had a sharp increase in order count (60%) in 2021 but a decrease in AOV (-24%) which resulted in a 21% increase in sales. 
 - The UK declined across all metrics with a 40% decrease in sales in 2021. 
 - Each country has different seasonality patterns. The US is strongest during Q4 while Ireland is strongest March - June.
@@ -69,7 +69,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 - **Reconsider Low Performers:** Products like Robusta Dark and Medium underperform in both AOV and revenue. Reevaluate the price of these products or bundle them with other items to increase sales. 
 
 ### Country Level Growth Optimization:
-- **Invest in the US Market:** With 78.6% of total sales and growth in AOC and order count, the US should be the primary focus. Continue to focus on the US by updating the loyalty program, focusing on Q4 promotions to capitalize on the surge, and new products specific to the US.
+- **Invest in the US Market:** With 78.6% of total sales and growth in AOV and order count, the US should be the primary focus. Continue to focus on the US by updating the loyalty program, focusing on Q4 promotions to capitalize on the seasonality, and  adding new products specific to the US.
 
 - **Capture Ireland’s New Customers:** In 2021, Ireland showed 60%+ increase in order volume, but a 24% drop in AOV. Take advantage of the increase in new customers by trying to convert them to loyalty members. The drop in AOV might suggest price sensitivity, so consider loyalty conversion offers and discounts after spending thresholds. 
 
@@ -85,15 +85,15 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 - **Specialize Loyalty Program:** Each country has different seasonality when it comes to sales. Utilize this by aligning offers with seasonality. The UK can focus on customer retention with the sales spike in March, and the US can address slower summer months with special offers and capitalize on Q4 surge.
 
 ## Clarifying Questions, Assumptions, and Caveats:
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+Throughout the analysis, multiple assumptions were made to manage challenges with the data:
 
 - Loyalty program: Can the loyalty status vary between orders of the same customer? Can loyalty membership vary? Is it a subscription, one time sign up, etc.
 
-- There is no refund information in the data. We assume that all orders in the data cannot be returned and sales are final
+- There is no refund information in the data.
 
-- There is no information about how the customer was acquired nor how long the customer has been a part of the loyalty program. More data could provide deeper insights and more actionable recommendations. I assume this data does not exist, and would recommend it be recorded.
+- There is no information about how the customer was acquired nor how long the customer has been a part of the loyalty program. More data could provide deeper insights and more actionable recommendations.
 
-- For this analysis, it is assumed that real world events did not impact the sales of this company. The years are for analysis purposes and the covid-19 pandemic is irrelevant though the data is from 2019-2021. 
+- For this analysis, it is assumed that real world events, such as the Covid-19 pandemic, did not impact the sales of this company and were not considered during analysis.
 
 
 
