@@ -24,7 +24,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 ## Sales Trends and Growth Rates
 - Company averages $12,690 in annual sales and 278 orders per year.
 - Sales jumped over 13% in 2021 due to the 18% increase in orders. 
-- AOV has been on a gradual decline since 2019 with fluctuations month to month. Recent years show a dip in summer months.
+- AOV has been on a gradual decline since 2019 with fluctuations month to month (4% decrease in 2021).
 - Sales are consistently high Q4 each year (especially Oct - Nov) with 2019 and 2020 showing drops in AOV and order count in summer months (Jul - Aug)
 
 ![Sales Chart](https://github.com/user-attachments/assets/7cdac6e2-fbbc-4ea0-9deb-c14717cb9581)
