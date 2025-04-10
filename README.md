@@ -18,4 +18,4 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 
 ![Sales Chart](https://github.com/user-attachments/assets/7cdac6e2-fbbc-4ea0-9deb-c14717cb9581)
 
-![Total Orders by Month](https://github.com/user-attachments/assets/7000660f-94bd-429e-a365-5296792c2bec) ![Total Sales by Month](https://github.com/user-attachments/assets/5e13e5f3-e943-4cc4-b046-056367857b97) ![AOV by Month](https://github.com/user-attachments/assets/2f5f5b50-1a42-46a7-974b-42519ea4cafd)
+![Sales trend and growth graphs](https://github.com/user-attachments/assets/83bad0d7-dd73-4a6e-9012-275372a6b9bf)
