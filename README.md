@@ -10,7 +10,7 @@ Insights and recommendations are provided for the following key areas:
 - **Country Sales Trends and Growth Rates**
 - **Loyalty Program Performance**
 
-See the raw data, my cleaning, pivot tables, and visualization in the Excel file HERE
+See the raw data, my cleaning, pivot tables, and visualization in the Excel file [HERE](https://github.com/patrick-frake/EDA/blob/main/SQL%20Queries)
 
 Targeted SQL queries regarding EDA and various business questions can be found HERE
 
