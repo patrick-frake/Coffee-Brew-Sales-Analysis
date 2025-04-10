@@ -1,0 +1,216 @@
+-- Looking at the data
+SELECT *
+FROM orders;
+
+SELECT *
+FROM customers;
+
+SELECT *
+FROM products;
+-- Ara = , Exc = , Lib = , Rob = ,
+
+-- Where are the customers from? (IRE, USA, UK)
+SELECT DISTINCT
+	country
+FROM customers;
+
+-- What products are sold? (Ara = , Exc = , Lib = , Rob = ) (Roast = Dark, Light, Medium) (Size .2, .5, 1, 2.5)
+SELECT DISTINCT
+	coffee_type,
+	roast_type,
+	size
+FROM products;
+
+-- When are the sales from? (Jan 2019 - Aug 2022)
+SELECT
+	MIN(order_date) as first_sale,
+	MAX(order_date) as last_sale,
+	DATEDIFF(year, MIN(order_date), MAX(order_date)) AS years
+FROM orders;
+
+-- General EDA
+
+-- Total Sales
+SELECT
+	'Total Sales' AS measure_name,
+	ROUND(SUM(sales), 2) as measure_value
+FROM orders
+UNION ALL
+-- Total Quantity
+SELECT
+	'Total Quantity',
+	SUM(quantity)
+FROM orders
+UNION ALL
+-- Average order value
+SELECT
+	'AOV',
+	ROUND(AVG(sales), 2)
+FROM orders
+UNION ALL
+-- Total Orders
+SELECT
+	'Total Orders',
+	COUNT(DISTINCT order_id)
+FROM orders
+UNION ALL
+-- Total Products
+SELECT
+	'Total Products',
+	COUNT(product_id)
+FROM products
+UNION ALL
+-- Total Customers
+SELECT
+	'Total Customers',
+	COUNT(customer_id)
+FROM customers;
+
+-- Total customers per country (USA 782, IRE 150, UK 68)
+SELECT
+	country,
+	COUNT(customer_id) as total_customers
+FROM customers
+GROUP BY country
+ORDER BY total_customers DESC;
+
+-- Prices of each coffee type
+SELECT
+	coffee_type,
+	ROUND(AVG(unit_price), 2) AS average_price
+FROM products
+GROUP BY coffee_type
+ORDER BY average_price DESC;
+
+-- Prices of each roast type
+SELECT
+	roast_type,
+	ROUND(AVG(unit_price), 2) AS average_price
+FROM products
+GROUP BY roast_type
+ORDER BY average_price DESC;
+
+-- Revenue Analysis
+-- Total revenue per customer
+SELECT
+	c.customer_id,
+	c.customer_name,
+	ROUND(SUM(o.sales), 2) as total_sales,
+	SUM(o.quantity) as total_items,
+	ROUND(AVG(o.sales), 2) as AOV,
+	c.loyalty_card
+FROM orders o
+LEFT JOIN customers c
+ON c.customer_id = o.customer_id
+GROUP BY
+	c.customer_id,
+	c.customer_name,
+	c.Loyalty_Card
+ORDER BY total_sales DESC;
+
+-- Revenue by country
+SELECT
+	c.country,
+	ROUND(SUM(o.sales), 2) as total_sales,
+	SUM(o.quantity) as total_quantity,
+	ROUND(AVG(o.sales), 2) as AOV
+FROM orders o
+LEFT JOIN customers c
+ON c.customer_id = o.customer_id
+GROUP BY
+	c.country
+ORDER BY total_sales DESC;
+
+-- Revenue by coffe type and roast
+SELECT
+	p.coffee_type,
+	p.roast_type,
+	ROUND(SUM(o.sales), 2) as total_sales,
+	SUM(o.quantity) as total_sold
+FROM orders o
+LEFT JOIN products p
+ON o.product_id = p.product_id
+GROUP BY
+	p.coffee_type,
+	p.roast_type
+ORDER BY
+	total_sales DESC,
+	total_sold;
+
+SELECT
+	p.coffee_type,
+	ROUND(SUM(o.sales), 2) as total_sales,
+	SUM(o.quantity) as total_sold
+FROM orders o
+LEFT JOIN products p
+ON o.product_id = p.product_id
+GROUP BY
+	p.coffee_type
+ORDER BY
+	total_sales DESC,
+	total_sold;
+
+-- Revenue by year
+SELECT
+	YEAR(order_date) as order_year,
+	ROUND(SUM(sales), 2) AS total_sales,
+	ROUND(AVG(sales), 2) AS AOV,
+	COUNT(DISTINCT customer_id) as total_customers,
+	SUM(quantity) as total_quantity
+FROM orders
+GROUP BY YEAR(order_date)
+ORDER BY YEAR(order_date) DESC;
+
+-- Revenue by month
+SELECT
+	YEAR(order_date) as order_year,
+	MONTH(order_date) as order_month,
+	ROUND(SUM(sales), 2) AS total_sales,
+	ROUND(AVG(sales), 2) AS AOV,
+	COUNT(DISTINCT customer_id) AS total_customers,
+	SUM(quantity) AS total_quantity
+FROM orders
+GROUP BY
+	YEAR(order_date),
+	MONTH(order_date)
+ORDER BY 
+	YEAR(order_date) DESC,
+	MONTH(order_date);
+
+-- Seasonality
+
+SELECT
+	MONTH(order_date) as order_month,
+	ROUND(SUM(sales), 2) AS total_sales,
+	ROUND(AVG(sales), 2) AS AOV,
+	COUNT(DISTINCT customer_id) AS total_customers,
+	SUM(quantity) AS total_quantity
+FROM orders
+GROUP BY
+	MONTH(order_date)
+ORDER BY 
+	MONTH(order_date);
+
+
+-- General table overview
+
+SELECT
+	c.country,
+	p.coffee_type,
+	ROUND(SUM(o.sales), 2) as total_sales,
+	COUNT(o.order_id) as total_orders,
+	COUNT(DISTINCT(c.customer_id)) as unique_customers,
+	(COUNT(o.order_id) - COUNT(DISTINCT(c.customer_id))) as returning_customer_orders,
+	ROUND(AVG(o.sales), 2) as AOV
+FROM orders o
+LEFT JOIN products p
+ON o.product_id = p.product_id
+LEFT JOIN customers c
+ON c.customer_id = o.customer_id
+GROUP BY
+	c.country,
+	p.coffee_type
+ORDER BY
+	total_sales DESC,
+	c.country,
+	p.coffee_type;
