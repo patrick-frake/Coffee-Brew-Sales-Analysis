@@ -52,6 +52,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 ![loyalty charts tg](https://github.com/user-attachments/assets/4b6437dd-5e19-451a-b949-4c1611dd0100)
 
 # Recommendations: 
+### Product Level
 **Scale High-Performing Products:** Focus on top sellers like Excelsa Light and Arabica Medium which consistently lead in revenue and order volume. Consider using them in bundles and in new-customer offers to drive repeat interest. 
 
 **Reconsider Low Performers:** Products like Robusta Dark and Medium underperform in both AOV and revenue. Reevaluate the price of these products or bundle them with other items to increase sales. 
