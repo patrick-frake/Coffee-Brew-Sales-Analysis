@@ -19,3 +19,13 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
    ![Sales Chart](https://github.com/user-attachments/assets/7cdac6e2-fbbc-4ea0-9deb-c14717cb9581)
 
 ![Sales trend and growth graphs](https://github.com/user-attachments/assets/83bad0d7-dd73-4a6e-9012-275372a6b9bf)
+
+## Product Performance
+- Excelsa contributes the most revenue by coffee type (27.88%) and is the most balanced product across roast types with little variation in sales, AOV and order count.
+- Arabica Medium Roast contributes the most towards revenue (10.53%) with over $10,000 in sales and has the most orders (220).
+- Robusta underperforms across the board with the lowest revenue contribution (19.2%) with dark roast having the lowest AOV of all products ($29.31).
+- Light roasts (especially Excelsa Light at $59.49 and Arabica Light at $59.03) have the highest AOVs.
+
+![Product performance](https://github.com/user-attachments/assets/d75c9c1e-52bc-4c4e-9799-e8fabaa2a17a)
+
+
