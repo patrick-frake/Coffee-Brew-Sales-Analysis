@@ -16,7 +16,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 - AOV has been on a gradual decline since 2019 with fluctuations month to month. Recent years show a dip in summer months.
 - Sales are consistently high Q4 each year (especially Oct - Nov) with 2020 and 2019 showing drops in AOV and order count in summer months (Jul - Aug)
 
-   ![Sales Chart](https://github.com/user-attachments/assets/7cdac6e2-fbbc-4ea0-9deb-c14717cb9581)
+![Sales Chart](https://github.com/user-attachments/assets/7cdac6e2-fbbc-4ea0-9deb-c14717cb9581)
 
 ![Sales trend and growth graphs](https://github.com/user-attachments/assets/83bad0d7-dd73-4a6e-9012-275372a6b9bf)
 
@@ -36,7 +36,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 - Each country has different seasonality patterns. The US is strongest during Q4 while Ireland is strongest March - June.
 - The UK’s sales surge in March and are flat for the rest of the year. 
 
-![Sales trends and growth by country](https://github.com/user-attachments/assets/0e4d08e6-fc21-4307-b608-eeb8615fe9b9)
+![country graphs ](https://github.com/user-attachments/assets/d8ea6180-f074-4ef0-8636-00e43b5189fe)
 
 ![Country sales trend graphs together](https://github.com/user-attachments/assets/1f5bb995-cc00-4eb4-95d4-ab8c2320e4b4)
 
