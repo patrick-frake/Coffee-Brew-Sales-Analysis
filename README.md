@@ -73,6 +73,16 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 
 - **Specialize Loyalty Program:** Each country has different seasonality when it comes to sales. Utilize this by aligning offers with seasonality. The UK can focus on customer retention with the sales spike in March, and the US can address slower summer months with special offers and capitalize on Q4 surge.
 
+## Assumptions and Caveats:
+Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+
+- Can the loyalty status vary between orders of the same customer? Can loyalty membership vary? Is it a subscription, one time sign up, etc.
+
+- There is no refund information in the data. We assume that all orders in the data cannot be returned and sales are final
+
+- For this analysis, it is assumed that real world events did not impact the sales of this company. The years are for analysis purposes and the covid-19 pandemic is irrelevant though the data is from 2019-2021. 
+
+
 
 
 
