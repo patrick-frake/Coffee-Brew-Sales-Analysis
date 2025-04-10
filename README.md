@@ -10,9 +10,9 @@ Insights and recommendations are provided for the following key areas:
 - **Country Sales Trends and Growth Rates**
 - **Loyalty Program Performance**
 
-See the raw data, my cleaning, pivot tables, and visualization in the Excel file [HERE](https://github.com/patrick-frake/EDA/blob/main/SQL%20Queries)
+See the raw data, my cleaning, pivot tables, and visualization in the Excel file [here](https://github.com/patrick-frake/EDA/blob/main/SQL%20Queries)
 
-Targeted SQL queries regarding EDA and various business questions can be found HERE
+Targeted SQL queries regarding EDA and various business questions can be found [here](https://github.com/patrick-frake/EDA/blob/main/coffeeOrdersData.xlsx)
 
 ## Executive Summary
 Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual revenue stabilizing around () with the United States contributing 78% of total sales. The coffee beans come in 4 types with 3 different roast types with Exelsa as the highest performing coffee type. The loyalty program seems to be underperforming, but Coffee Brew can capitilize on the recent 36% increase in orders with loyalty signup offers. Coffee Brew can benefit from optimizing their loyalty program specific to each country, expanding bundles with high performing products, and reducing focus on underperforming regions and product lines. Targeted customer retention in Ireland and a continued primary focus on the US can drive sustainable and predictable growth. 
