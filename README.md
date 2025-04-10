@@ -53,25 +53,25 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 
 # Recommendations: 
 ### Product Level:
-**Scale High-Performing Products:** Focus on top sellers like Excelsa Light and Arabica Medium which consistently lead in revenue and order volume. Consider using them in bundles and in new-customer offers to drive repeat interest. 
+- **Scale High-Performing Products:** Focus on top sellers like Excelsa Light and Arabica Medium which consistently lead in revenue and order volume. Consider using them in bundles and in new-customer offers to drive repeat interest. 
 
-**Reconsider Low Performers:** Products like Robusta Dark and Medium underperform in both AOV and revenue. Reevaluate the price of these products or bundle them with other items to increase sales. 
+- **Reconsider Low Performers:** Products like Robusta Dark and Medium underperform in both AOV and revenue. Reevaluate the price of these products or bundle them with other items to increase sales. 
 
 ### Country Level Growth Optimization:
-**Invest in the US Market:** With 78.6% of total sales and growth in AOC and order count, the US should be the primary focus. Continue to focus on the US by updating the loyalty program, focusing on Q4 promotions to capitalize on the surge, and new products specific to the US.
+- **Invest in the US Market:** With 78.6% of total sales and growth in AOC and order count, the US should be the primary focus. Continue to focus on the US by updating the loyalty program, focusing on Q4 promotions to capitalize on the surge, and new products specific to the US.
 
-**Capture Ireland’s New Customers:** In 2021, Ireland showed 60%+ increase in order volume, but a 24% drop in AOV. Take advantage of the increase in new customers by trying to convert them to loyalty members. The drop in AOV might suggest price sensitivity, so consider loyalty conversion offers and discounts after spending thresholds. 
+- **Capture Ireland’s New Customers:** In 2021, Ireland showed 60%+ increase in order volume, but a 24% drop in AOV. Take advantage of the increase in new customers by trying to convert them to loyalty members. The drop in AOV might suggest price sensitivity, so consider loyalty conversion offers and discounts after spending thresholds. 
 
-**Reassess UK Strategy:** With a 40% sales decrease in 2021 and consistent low sales, the UK may need a complete strategy reconstruction. Reduce spending or consider new strategies centered around the annual spike in March. Consider loyalty offers or bundles in Q1 before fully scaling back. 
+- **Reassess UK Strategy:** With a 40% sales decrease in 2021 and consistent low sales, the UK may need a complete strategy reconstruction. Reduce spending or consider new strategies centered around the annual spike in March. Consider loyalty offers or bundles in Q1 before fully scaling back. 
 
 ### Loyalty Program Enhancements:
-**Drive Loyalty Growth:** Loyalty customer order count has remained flat for three years. Incentivize more orders with spending goals, birthday rewards, or frequent offers.
+- **Drive Loyalty Growth:** Loyalty customer order count has remained flat for three years. Incentivize more orders with spending goals, birthday rewards, or frequent offers.
 
-**Boost AOV:** Although similar in 2021, loyalty AOV has been lower than non loyalty AOV overall. Incentivize bigger orders through the loyalty program such as discounts on orders $50+ or discounts on big bundles of items.
+- **Boost AOV:** Although similar in 2021, loyalty AOV has been lower than non loyalty AOV overall. Incentivize bigger orders through the loyalty program such as discounts on orders $50+ or discounts on big bundles of items.
 
-**Convert Non Loyalty Users:** With the recent 36% order growth in 2021, there is an opportunity to capture these new customers with the loyalty program. Leverage post-purchase loyalty sign ups or offers specific to returning customers to bring repeat purchases. 
+- **Convert Non Loyalty Users:** With the recent 36% order growth in 2021, there is an opportunity to capture these new customers with the loyalty program. Leverage post-purchase loyalty sign ups or offers specific to returning customers to bring repeat purchases. 
 
-**Specialize Loyalty Program:** Each country has different seasonality when it comes to sales. Utilize this by aligning offers with seasonality. The UK can focus on customer retention with the sales spike in March, and the US can address slower summer months with special offers and capitalize on Q4 surge.
+- **Specialize Loyalty Program:** Each country has different seasonality when it comes to sales. Utilize this by aligning offers with seasonality. The UK can focus on customer retention with the sales spike in March, and the US can address slower summer months with special offers and capitalize on Q4 surge.
 
 
 
