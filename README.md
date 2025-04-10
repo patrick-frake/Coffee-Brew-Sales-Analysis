@@ -36,7 +36,7 @@ Coffee Brew's sales analysis of over 1,000 record across 2019-2022 shows annual 
 - Each country has different seasonality patterns. The US is strongest during Q4 while Ireland is strongest March - June.
 - The UK’s sales surge in March and are flat for the rest of the year. 
 
-![Country Stats](https://github.com/user-attachments/assets/cd077b66-11af-43a2-8504-e8967f899a43)
+![Sales trends and growth by country](https://github.com/user-attachments/assets/0e4d08e6-fc21-4307-b608-eeb8615fe9b9)
 
 ![Country sales trend graphs together](https://github.com/user-attachments/assets/1f5bb995-cc00-4eb4-95d4-ab8c2320e4b4)
 
