@@ -93,7 +93,6 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 
 - There is no information about how the customer was acquired nor how long the customer has been a part of the loyalty program. More data could provide deeper insights and more actionable recommendations.
 
-- For this analysis, it is assumed that real world events, such as the Covid-19 pandemic, did not impact the sales of this company and were not considered during analysis.
 
 
 
