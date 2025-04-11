@@ -1,4 +1,4 @@
-# Coffee Sales Analysis
+# Coffee Brew Sales Analysis
 
 ## Project Background
 Brew Coffee, an international coffee company founded in 2019, specializes in selling various types of coffee beans and roast types. The company has asked for insights and to deliver recommendations to improve performance across sales, products, and their loyalty program.
